@@ -1,0 +1,147 @@
+.content {
+  background-image: url("https://img.tukuppt.com/png_preview/00/21/07/nyHI7FjDSa.jpg%21/fw/780");
+  background-size: cover;
+  margin-top: -0.2rem;
+  width:100vw;
+}
+.title{
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Papyrus;
+  color: #5c5cea;
+  position: absolute;
+  left: 36%;
+  top: 7%;
+  background: -webkit-linear-gradient(50deg,  #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5)
+  -moz-linear-gradient(50deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5)
+  -ms-linear-gradient(50deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+  color: transparent;
+  -webkit-background-clip: text;
+  /*背景裁剪为文本形式*/
+  animation: ran 10s linear infinite;
+  /*动态10s展示*/
+}
+.wrapper {
+  border-radius: 0.75rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: white;
+  min-width: 40rem;
+  margin-top: 0.7rem;
+  margin-left: 2rem;
+  top: 6.375rem;
+  border-radius: 1.2rem;
+  box-shadow: 6px 4px 15px #a2a2d8;
+  background-color: whitesmoke;
+}
+.pagewrapper {
+  background-color:"#d1d0f5";
+  margin-top: "1rem";
+  text-align: "center";
+}
+.middlewrapper {
+  background-image: url("../../styles/logobk.jpg");
+  background-size: cover;
+}
+.logo{
+  height: 10rem;
+  width: 14rem;
+  margin-top: 2.5rem;
+  margin-left: 40%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+}
+
+.text {
+  margin-top: 0rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.textwrapper {
+  color: white;
+  width: 90%;
+  margin-top: 2%;
+  padding: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  border-radius: 1.2rem;
+  box-shadow: 6px 4px 15px #a2a2d8;
+}
+
+h2 {
+  margin: 0.625rem 0;
+  line-height: 2.5rem;
+  height: 2.5rem;
+  font-size: 2.1875rem;
+}
+
+.button-wrapper{
+  text-align: right;
+}
+
+.button{
+  margin-top: 2.5rem;
+  float: right;
+  margin-right: 0.4375rem;
+  height: 2.0625rem;
+  width: 8.5625rem;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: rgb(14, 146, 122);
+  color: white;
+  cursor: pointer;
+}
+
+.info {
+  color: rgba(121, 137, 152, 1);
+  font-size: 0.875rem;
+}
+
+.introduction {
+  font-size: 0.875rem
+}
+
+.progress {
+  width: 15rem;
+}
+.slidewrapper {
+  width: 100%;
+}
+.slideImg {
+  width: 70%;
+  height: 20rem;
+  margin-left:15%;
+  box-shadow: 6px 6px 15px #777784;
+  border-radius: 2rem;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.filterswrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom:" 2rem";
+}
+.cardwrapper {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom:" 2rem";
+}

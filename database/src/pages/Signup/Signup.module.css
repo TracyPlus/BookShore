@@ -1,0 +1,52 @@
+.textwrapper {
+    color: white;
+    width: 50%;
+    margin-top: 2%;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 1.2rem;
+    box-shadow: 6px 4px 15px #a2a2d8;
+}
+.wrapper {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 1.2rem;
+    background-color: white;
+}
+.wrapper2 {
+    color: white;
+    min-height: 20rem;
+    width: 80%;
+    margin-top: -2rem;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 8rem;
+    border-radius: 1.2rem;
+    /* background-color:#C8C9F9; */
+    box-shadow: 6px 4px 15px #a2a2d8;
+}
+.cardwrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    width: 100%;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 8rem;
+    /* border-radius: 1.2rem;
+    box-shadow: 6px 4px 15px #a2a2d8; */
+}
+.card {
+    background-color: rgb(182, 20, 20);
+}
+.logo {
+    height: 8em;
+}
+.login {
+    background-color:#929cf7;
+}
+.signup {
+    margin-left: 2rem;
+    background-color:#929cf7;
+}

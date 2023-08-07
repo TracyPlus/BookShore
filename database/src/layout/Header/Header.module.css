@@ -1,0 +1,213 @@
+.header {
+  height: 6rem;
+  width: 100vw;
+  margin-top: -2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+}
+
+.header > div {
+  margin: 0 20px;
+}
+
+.header .levels {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.divider{
+  margin-left: auto;
+  margin-right:auto;
+  width: 100%;
+  height: 0px;
+  border-top: 1px solid #ccc;
+  /* box-shadow: 5px 0.5px 3px 1px rgba(0,0,0,0.2); */
+}
+
+.header .logo{
+  height: 3.5rem;
+  width: 14rem;
+  margin-top: 2.5rem;
+  margin-left: 4%;
+  border-radius: 2rem;
+}
+
+.header .logo-img{
+  height: 100%;
+}
+
+.toolbarWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.toolbar{
+  width: 3rem;
+  margin-top: 1.6rem;
+  margin-right: 1rem;
+  color: white;
+  background-color: #000;
+  border:#000;
+  border-width: 0.1px;
+  border-radius: 12px;
+  border-color:#000;
+}
+
+.sidebar{
+  width: 6rem;
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-left: 1rem;
+  color: white;
+  background-color: #000;
+  border:#000;
+  border-width: 0.1px;
+  border-radius: 12px;
+  border-color:#000;
+}
+
+/* .levels .level-button {
+  margin-right: 20px;
+  margin-left:20px;
+  margin-bottom :5px;
+  border-radius: 15px;
+  box-shadow: 0 5px 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+} */
+.levels .box{
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.levels .level-button{
+  flex-grow: 1;
+  height: 100%;
+  background: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 120%;
+  letter-spacing: 0.1em;
+  padding: 5%;
+  position: relative;
+  transition: all 0.3s;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  img {
+    --a: calc($th * 0.5);
+    width: var(--a);
+    height: var(--a);
+  }
+}
+.levels .level-button::before{
+  transition: all 0.3s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  padding-bottom: 2px;
+  border-radius: 1.5px;
+  margin: 0 50%;
+}
+.levels .level-button a{
+  color: #000;
+}
+.levels .level-button:hover{
+  background: rgb(248, 248, 248);
+  transition: all 0.3s;
+}
+.levels .level-button:hover::before{
+  transition: all 0.3s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 3px;
+  padding-bottom: 2px;
+  background-color: rgb(200, 200, 200);
+  margin: 0 20%;
+}
+.levels .level-button.selected{
+  color:#1890ff;
+  transition: all 0.3s;
+}
+.levels .level-button.selected::before{
+  transition: all 0.3s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 3px;
+  padding-bottom: 2px;
+  background-color: #1890ff;
+  margin: 0 20%;
+}
+/* .levels .level-button.selected {
+  background-color: #1890ff;
+  color:white;
+  border-width: 3px;
+  height:45px;
+  width:100px;
+  font-size: large;
+}
+.levels.level-button.selected::before{
+  content: "";
+  width:100%;
+  height:2px;
+  color:black;
+}
+.levels .level-button.muggle{
+  color:black;
+}
+.levels .level-button.azure-dragon{
+  background-color: #308014;
+
+}
+.levels .level-button.white-tiger{
+  background-color: #c0c0c0;
+}
+.levels .level-button.vermilion-bird{
+  background-color: #ff461f;
+
+}
+.levels .level-button.black-tortoise{
+  background-color: #6b6882;
+} */
+@media (max-width: 768px) {
+   /* 将头部设置为弹性布局 */
+   .header {
+    /* display: flex; */
+    /* flex-direction: column; */
+    .levels {
+      display: flex;
+      width: 100%;
+      flex-wrap: nowrap;
+      overflow-x: auto; /* 让 levels 可以水平滚动 */
+      -webkit-overflow-scrolling: touch; /* 使滚动更平滑 */
+      .levels > * {
+        flex: 1;
+        min-width: 20%; /* 每个子项至少占据 levels 宽度的一半 */
+      }
+    }
+    .logo {
+      display: none;
+      }
+      .toolbarWrapper {
+      display: none;
+      }
+      .divider {
+      display: none;
+      }
+  }
+}

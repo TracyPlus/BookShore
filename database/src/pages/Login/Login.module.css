@@ -1,0 +1,30 @@
+.textwrapper {
+    color: white;
+    width: 50%;
+    margin-top: 2%;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 1.2rem;
+    box-shadow: 6px 4px 15px #a2a2d8;
+}
+.wrapper {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 1.2rem;
+    background-color: white;
+}
+.card {
+    background-color: rgb(182, 20, 20);
+}
+.logo {
+    /* width: 20%; */
+    height: 8em;
+}
+.login {
+    background-color:#929cf7;
+}
+.signup {
+    margin-left: 2rem;
+
+}
